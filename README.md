@@ -112,6 +112,3 @@ Made with ❤️ by [Haseeb Manzoor]
 
 ```
 
----
-
-Let me know if you'd like a version with a logo, screenshots, or GitHub badges.
