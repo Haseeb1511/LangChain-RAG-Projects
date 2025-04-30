@@ -38,7 +38,7 @@ cd document-qa-app
 
 ```bash
 python -m venv venv
-# On Windows: venv\Scripts\activate
+# venv\Scripts\activate
 ```
 
 ### 3. Install dependencies
@@ -82,7 +82,7 @@ Then open the URL Streamlit provides (usually http://localhost:8501) in your bro
 
 1. Upload a **PDF** or **DOCX** file.
 2. The document is split into chunks.
-3. Each chunk is embedded using MiniLM and stored in **Chroma vector DB**.
+3. Each chunk is embedded using MiniLM(sentence transformer) and stored in **Chroma vector DB**.
 4. User input is matched against document chunks using **similarity search**.
 5. The **Gemma-2 9B** LLM generates an answer using both user query and relevant context.
 
