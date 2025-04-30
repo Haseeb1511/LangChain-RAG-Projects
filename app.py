@@ -11,10 +11,17 @@ from dotenv import load_dotenv
 import os
 load_dotenv()
 
-
+st.set_page_config(page_title="Document Q&A", layout="wide")
 st.title("Documnet Q&A")
+st.info("""
+Welcome to the **Document Q&A Assistant**!  
+📌 Upload a **PDF** or **Word (.docx)** file.  
+💡 Ask questions related to the content of your uploaded document.  
+🤖 Powered by **LangChain**, **Groq AI**, and **HuggingFace Embeddings**.
 
-#   file_type = 
+Just upload a file, and start chatting with your document!  
+""")
+
 upload_file = st.file_uploader("Upload a PDF or Word file", type=["pdf", "docx"])
 @st.cache_resource(show_spinner="loading_pdf")
 def load_document(uploaded_file):
@@ -102,7 +109,23 @@ if upload_file:
                     st.markdown(response)
                     st.session_state.messages.append({"role":"AI","content":response})
 else:
-    st.info("Please upload a PDF file to start.")
+    st.info("Please upload a Document to start.")
+
+    st.markdown("""
+    <style>
+        .footer {
+            position: fixed;
+            bottom: 10px;
+            width: 100%;
+            text-align: center;
+            font-size: 12px;
+            color: gray;
+        }
+    </style>
+    <div class="footer">
+        Made with ❤️ by Haseeb Manzoor😘😘😁
+    </div>
+""", unsafe_allow_html=True)
 
 
 
