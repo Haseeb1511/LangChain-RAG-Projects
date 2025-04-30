@@ -30,7 +30,7 @@ This project is a **Document Question-Answering App** built using **LangChain**,
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/document-qa-app.git
+git clone https://github.com/Haseeb1511/Document_Q-A_RAG_BASE.git
 cd document-qa-app
 ```
 
@@ -38,7 +38,7 @@ cd document-qa-app
 
 ```bash
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+# On Windows: venv\Scripts\activate
 ```
 
 ### 3. Install dependencies
@@ -103,15 +103,12 @@ MIT License — feel free to use and modify.
 
 ---
 
-## 🤝 Contributing
-
-Pull requests are welcome. For major changes, open an issue first to discuss what you would like to change.
 
 ---
 
 ## 🙋‍♂️ Author
 
-Made with ❤️ by [Your Name](https://github.com/yourusername)
+Made with ❤️ by [Haseeb Manzoor]
 
 ```
 
