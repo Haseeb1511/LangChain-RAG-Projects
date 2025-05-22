@@ -1,0 +1,10 @@
+faiss-cpu
+langchain-groq
+langchain-community
+langchain-google-genai
+pypdf
+pymupdf
+rank_bm25
+dotenv
+langchain-cohere
+streamlit
