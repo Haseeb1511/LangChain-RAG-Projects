@@ -1,0 +1,13 @@
+langchain_core
+langchain_groq
+PyPDF
+chroma
+langchain_community
+langchain
+langchain_huggingface
+sentence-transformers
+chromadb
+langchain_openai
+cryptography    # for encrypted pdf
+streamlit
+langchain_chroma

@@ -1,0 +1,12 @@
+venv/
+env/
+.venv/
+.ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+.vscode/
+.env
+.env.*
+PDF_BOOKS/
+vector_store/
